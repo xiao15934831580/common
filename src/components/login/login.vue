@@ -172,7 +172,7 @@ const handleLogin = () => {
 }
 .login-container {
   min-height: 100vh;
-  background: url(../../../../assets/loginbgm.jpg) no-repeat;
+  background: url(../../assets/loginbgm.jpg) no-repeat;
 //   background-size: cover;
   background-size:100% 100%;
   height:100%;

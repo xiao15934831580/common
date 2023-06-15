@@ -74,7 +74,7 @@
 <script >
 import { computed } from "vue";
 import { useRouter, useRoute } from "vue-router";
-import menulist from '../../../assets/js/menulist';
+import menulist from '../assets/js/menulist';
 import { useStore } from 'vuex'
 export default {
   name: "AllMenus",

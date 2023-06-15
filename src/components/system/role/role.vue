@@ -249,10 +249,10 @@ const handleDelete = (index, row) => {
 <style  lang = 'less' scoped>
 .tablestyle {
   position: relative;
-  /deep/ .el-table__header thead tr {
+  :deep(.el-table__header thead tr) {
     background-color: rgba(64, 158, 255, 0.1);
   }
-  /deep/ .el-col-3 {
+  :deep(.el-col-3 ){
     max-width: none;
   }
 }
@@ -269,10 +269,10 @@ const handleDelete = (index, row) => {
   display: block;
   width: 100%;
 }
-/deep/ .el-table--fit{
+:deep(.el-table--fit){
   height:100%;
 }
-/deep/ .el-table__body-wrapper{
+:deep(.el-table__body-wrapper){
   overflow-y: auto;
 }
 .searchsize {

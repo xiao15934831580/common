@@ -273,16 +273,16 @@ import {resetPasswords as resetPasswords, findMyInformation as findMyInformation
       display: block;
     }
   }
-  /deep/ .el-dialog__footer {
+  :deep(.el-dialog__footer) {
     padding-top: 16px;
   }
-  /deep/ .el-dialog__body {
+  :deep(.el-dialog__body ){
     padding: 0;
     max-height: 550px;
     overflow-y: auto;
     overflow-x: hidden;
   }
-  /deep/ .el-dialog__header {
+  :deep(.el-dialog__header) {
     border-bottom: 1px solid #cccccc;
     padding: 0;
     margin-right: 0;
@@ -291,17 +291,17 @@ import {resetPasswords as resetPasswords, findMyInformation as findMyInformation
     align-items: center;
     margin-bottom: 32px;
   }
-  /deep/ .el-dialog__title {
+  :deep(.el-dialog__title) {
     color: #409eff;
     font-size: 20px;
     height: 40px;
     width: 120px;
     border-bottom: 4px solid #409eff;
   }
-  /deep/ .el-dialog {
+  :deep(.el-dialog) {
     padding: 24px;
   }
-  /deep/ .el-dialog__headerbtn {
+  :deep(.el-dialog__headerbtn) {
     position: static;
     top: 0px;
     right: 0;
@@ -327,7 +327,7 @@ import {resetPasswords as resetPasswords, findMyInformation as findMyInformation
     float: left;
     margin-top: 12px;
 }
-/deep/ .el-form--inline .el-form-item{
+:deep(.el-form--inline .el-form-item){
     margin-left: 20%;
 }
 .showinfo {

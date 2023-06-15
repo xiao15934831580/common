@@ -43,7 +43,7 @@ export default {
               commit('SetUserData', res.body)
               commit('setToken', res.body.token)
               setTokenTime()
-              router.replace('/manageMent')
+              router.replace('/homepage')
               resolve()
             }else{
               ElNotification({

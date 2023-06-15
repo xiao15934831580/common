@@ -250,16 +250,16 @@ const success = (addform) => {
       display: block;
     }
   }
-  /deep/ .el-dialog__footer {
+  :deep(.el-dialog__footer ){
     padding-top: 16px;
   }
-  /deep/ .el-dialog__body {
+  :deep(.el-dialog__body ){
     padding: 0;
     max-height: 550px;
     overflow-y: auto;
     overflow-x: hidden;
   }
-  /deep/ .el-dialog__header {
+  :deep(.el-dialog__header ){
     border-bottom: 1px solid #cccccc;
     padding: 0;
     margin-right: 0;
@@ -268,17 +268,17 @@ const success = (addform) => {
     align-items: center;
     margin-bottom: 32px;
   }
-  /deep/ .el-dialog__title {
+  :deep(.el-dialog__title ){
     color: #409eff;
     font-size: 20px;
     height: 40px;
     width: 100px;
     border-bottom: 4px solid #409eff;
   }
-  /deep/ .el-dialog {
+  :deep(.el-dialog ){
     padding: 24px;
   }
-  /deep/ .el-dialog__headerbtn {
+  :deep(.el-dialog__headerbtn ){
     position: static;
     top: 0px;
     right: 0;
@@ -287,10 +287,10 @@ const success = (addform) => {
     height: auto;
   }
 }
-/deep/ .el-form-item__label {
+:deep(.el-form-item__label) {
   font-size: 14px;
 }
-/deep/ .el-form {
+:deep(.el-form) {
   position: relative;
 }
 .imgstyle {
@@ -303,7 +303,7 @@ const success = (addform) => {
   height: 178px;
   display: block;
 }
-/deep/ .avatar-uploader .el-upload {
+:deep(.avatar-uploader .el-upload) {
   border: 1px dashed var(--el-border-color);
   border-radius: 6px;
   cursor: pointer;
@@ -311,14 +311,14 @@ const success = (addform) => {
   overflow: hidden;
   transition: var(--el-transition-duration-fast);
 }
-/deep/ .el-form-item__content {
+:deep(.el-form-item__content) {
   width: 200px;
 }
-/deep/ .el-input__inner {
+:deep(.el-input__inner ){
   width: 156px;
 }
 .address {
-  /deep/ .el-form-item__content {
+  :deep(.el-form-item__content ){
     width: 350px;
   }
 }
@@ -346,13 +346,13 @@ const success = (addform) => {
 } */
 .imgstyle {
   width: 15%;
-  /deep/ .el-form-item {
+  :deep(.el-form-item ){
     margin: 0;
   }
-  /deep/ .el-form-item__content {
+  :deep(.el-form-item__content ){
     width: 100%;
   }
-  /deep/ .el-icon {
+  :deep(.el-icon ){
     width: 120px;
   }
 }
