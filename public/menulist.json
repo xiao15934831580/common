@@ -1,0 +1,97 @@
+{
+    "menulist": [
+        {
+
+            "id": 1,
+            "name": "literature",
+            "chineseName": "系统管理",
+            "parentMenuId": 0,
+            "menuStatus": true,
+            "childMenu": [
+                {
+    
+                    "id": 2,
+                    "name": "noval",
+                    "chineseName": "角色管理",
+                    "parentMenuId": 1,
+                    "menuStatus": true,
+                    "childMenu": null
+                },
+                {
+    
+                    "id": 3,
+                    "name": "essay",
+                    "chineseName": "部门管理",
+                    "parentMenuId": 1,
+                    "menuStatus": true,
+                    "childMenu": null
+                },
+                {
+    
+                    "id": 4,
+                    "name": "youth_literature",
+                    "chineseName": "职务管理",
+                    "parentMenuId": 1,
+                    "menuStatus": true,
+                    "childMenu": null
+                },
+                {
+    
+                    "id": 5,
+                    "name": "biography",
+                    "chineseName": "菜单管理",
+                    "parentMenuId": 1,
+                    "menuStatus": true,
+                    "childMenu": null
+                },
+                {
+    
+                    "id": 6,
+                    "name": "cartoon",
+                    "chineseName": "通知公告",
+                    "parentMenuId": 1,
+                    "menuStatus": true,
+                    "childMenu": null
+                }
+            ]
+        },
+        {
+    
+            "id": 11,
+            "name": "humanity_social_science",
+            "chineseName": "业务办理",
+            "parentMenuId": 0,
+            "menuStatus": true,
+            "childMenu": [
+                {
+    
+                    "id": 12,
+                    "name": "history",
+                    "chineseName": "请假申请",
+                    "parentMenuId": 11,
+                    "menuStatus": true,
+                    "childMenu": null
+                },
+                {
+    
+                    "id": 13,
+                    "name": "psychology",
+                    "chineseName": "出差申请",
+                    "parentMenuId": 11,
+                    "menuStatus": true,
+                    "childMenu": null
+                }
+            ]
+        },
+        {
+    
+            "id": 14,
+            "name": "humanity_social_science",
+            "chineseName": "关于",
+            "parentMenuId": 0,
+            "menuStatus": true,
+            "childMenu": [
+            ]
+        }
+    ]
+}
